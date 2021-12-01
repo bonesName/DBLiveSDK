@@ -17,7 +17,7 @@ Pod::Spec.new do |spec|
 
   spec.name         = "DBLiveSDKTest"
   spec.version      = "0.0.1"
-  spec.summary      = "A short description of DBLiveSDKTest."
+  spec.summary      = "新手 DBLiveSDKTest."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,6 +25,7 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
+                     DBLiveSDKTest
                    DESC
 
   spec.homepage     = "http://EXAMPLE/DBLiveSDKTest"
@@ -89,22 +90,22 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "Classes", "Classes/**/*.{h,m}"
+#   spec.source_files  = "Classes", "Classes/**/*.{h,m}"
   spec.exclude_files = "Classes/Exclude"
- spec.frameworks     = 'UIKit', 'CoreLocation','Foundation'
-   spec.resources      = "Classes/LiveSDKIcon.bundle"
-spec.vendored_frameworks = 'Classes/LiveSDK.framework'
-spec.dependency 'AFNetworking'
-spec.dependency 'SDWebImage'
-spec.dependency 'MJRefresh'
-spec.dependency 'MJExtension'
-spec.dependency 'Masonry'
-spec.dependency 'MBProgressHUD', '~> 0.9.2'
-spec.dependency 'BlocksKit'
-spec.dependency 'QBImagePickerController'
-spec.dependency 'CWStatusBarNotification'
-spec.dependency 'TXIMSDK_iOS'
-spec.dependency 'TXLiteAVSDK_Professional'
+  spec.frameworks     = 'UIKit', 'CoreLocation','Foundation'
+  spec.resources      = "Classes/LiveSDKIcon.bundle"
+  spec.vendored_frameworks = 'Classes/LiveSDK.framework'
+  spec.dependency 'AFNetworking'
+  spec.dependency 'SDWebImage'
+  spec.dependency 'MJRefresh'
+  spec.dependency 'MJExtension'
+  spec.dependency 'Masonry'
+  spec.dependency 'MBProgressHUD', '~> 0.9.2'
+  spec.dependency 'BlocksKit'
+  spec.dependency 'QBImagePickerController'
+  spec.dependency 'CWStatusBarNotification'
+  spec.dependency 'TXIMSDK_iOS'
+  spec.dependency 'TXLiteAVSDK_Professional'
   # spec.public_header_files = "Classes/**/*.h"
 
 
