@@ -17,7 +17,7 @@ Pod::Spec.new do |spec|
 
   spec.name         = "DBLiveSDKTest"
   spec.version      = "0.0.1"
-  spec.summary      = "新手 a long word DBLiveSDKTest."
+  spec.summary      = "新手."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
