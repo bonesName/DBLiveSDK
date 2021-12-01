@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "DBLiveSDKTest"
-  spec.version      = "0.0.1"
+  spec.version      = "0.1.1"
   spec.summary      = "新手."
 
   # This description is used to generate tags and improve search results.
