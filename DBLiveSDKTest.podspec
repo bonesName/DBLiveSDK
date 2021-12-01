@@ -94,8 +94,8 @@ Pod::Spec.new do |spec|
   spec.exclude_files  = "Classes/Exclude"
   spec.frameworks     = 'UIKit', 'CoreLocation','Foundation'
   spec.resources      = "Classes/LiveSDKIcon.bundle"
-#   spec.vendored_frameworks = 'Classes/LiveSDK.framework'
-  spec.framework      = "Classes/LiveSDK.framework"
+  spec.vendored_frameworks = 'Classes/LiveSDK.framework'
+#   spec.framework      = "Classes/LiveSDK.framework"
   spec.dependency 'AFNetworking'
   spec.dependency 'SDWebImage'
   spec.dependency 'MJRefresh'
