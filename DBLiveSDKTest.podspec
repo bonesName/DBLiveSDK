@@ -28,7 +28,7 @@ Pod::Spec.new do |spec|
                      DBLiveSDKTest
                    DESC
 
-  spec.homepage     = "http://EXAMPLE/DBLiveSDKTest"
+  spec.homepage     = "https://github.com/bonesName/DBLiveSDKTest"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -79,7 +79,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "http://EXAMPLE/DBLiveSDKTest.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/bonesName/DBLiveSDKTest.git", :tag => "#{spec.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
